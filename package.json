@@ -1,0 +1,25 @@
+{
+  "name": "proyecto_desarrolloweb_coder",
+  "version": "1.0.0",
+  "description": "Proyecto de desarrollo web de coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css":"nodemon -e scscc -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoNaquit/proyecto_desarrolloweb_coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoNaquit/proyecto_desarrolloweb_coder/issues"
+  },
+  "homepage": "https://github.com/RodrigoNaquit/proyecto_desarrolloweb_coder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,55 @@
+//Novedades//
+
+.conteiner {
+    margin-top: 5%;
+
+    padding:$padding-1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ciudades {
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+
+.conteiner li:hover {
+    color: red;
+    background-color: antiquewhite;
+}
+.novedad-1 {
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue; 
+    background-image: url(../imagenes/popup.jpg);
+    background-position: center;
+    height: 125px;
+    
+}
+.novedad-2 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(240, 136, 7);
+    background-image: url(../imagenes/catwalk.jfif);
+    background-position: center;
+    height: 150px;
+    
+}
+
+.novedad-3 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(226, 11, 194);
+
+   background-color: black;
+    height: 125px;
+    
+}
+
+.novedad-3:hover {
+    background-color: white;
+    color: orangered;
+}

@@ -1,0 +1,25 @@
+//Nosotros//
+
+.nosotros {
+
+    margin-top: 7%;
+    padding: 30px;
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border: dotted rgb(255, 204, 0) 3px;
+}
+
+.nosotros :hover {
+    color: #04AA6D;
+}
+
+.objetivo {
+    font-size: 50px;
+}
+
+.form {
+    font-size: 20px;
+    border: $border-1
+}

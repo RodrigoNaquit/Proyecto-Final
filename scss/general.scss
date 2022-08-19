@@ -1,0 +1,78 @@
+//General//
+
+body {
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+}
+
+footer {
+    background-color:#242321;
+    width: 100%;
+
+    footer-1 {
+        font-style: italic;
+        font-size: 50px;
+        margin-top: 15%;
+
+        footer-2{
+            font-style: italic;
+        font-size: 30px;
+        }
+    }     
+}
+
+.title-bar {
+    background-color: rgba(249, 218, 14, 0);
+    color: rgb(0, 0, 0); 
+    font-style: normal;
+    font-weight: normal;
+
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    justify-content: space-evenly;
+
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+
+    top: 0;
+    width: 100%; 
+}
+
+.title-bar:hover {
+    background-color: rgb(166, 165, 165);
+    color: rgb(255, 255, 255);
+}
+
+.brand {
+    font-size: 60px;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+.menu-icon div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+
+    padding: 50px;
+
+    font-size: 25px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.list a:hover {
+    background-color: rgb(255, 155, 15);
+    color: black;
+}

@@ -1,0 +1,83 @@
+//Productos//
+
+.todo {
+
+    margin-top: 5%;
+   display: grid;
+   grid-template-columns:repeat(1,6fr) ;
+   grid-column-gap: 10px ;
+   grid-row-gap: 10px;
+   text-align: center;
+
+   p {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.113) ;
+   }
+}
+
+.producto-1 {
+    padding: $padding-2;
+    background-color: rgba(236, 236, 213, 0.443);
+    transition-delay: 0.2s;
+    transition-duration: 0.35s;
+}
+
+.producto-2 {
+    padding: $padding-2;
+    background-color: rgba(158, 121, 84, 0.762);
+    transition-delay: 0.2s;
+    transition-duration: 0.35s;
+}
+
+.producto-3 {
+    padding: $padding-2;
+    background-color: rgba(0, 0, 0, 0.585);
+    transition-delay: 0.2s;
+    transition-duration: 0.35s;
+}
+
+.producto-4 {
+    padding: $padding-2;
+    background-color: rgba(0, 0, 0, 0.768);
+    transition-delay: 0.2s;
+    transition-duration: 0.35s;
+}
+
+.producto-5 {
+    padding: $padding-2;
+    background-color: rgba(74, 199, 224, 0.751);
+    transition-delay: 0.2s;
+    transition-duration: 0.35s;
+}
+
+.producto-6 {
+    padding: $padding-2;
+    background-color: rgba(136, 136, 136, 0.585);
+    transition-delay: 0.2s;
+    transition-duration: 0.35s;
+}
+.producto-1 a:hover {
+    transform: scale(1.025);
+}
+
+.producto-2 a:hover {
+    transform: scale(1.025);
+}
+
+.producto-3 a:hover {
+    transform: scale(1.025);
+}
+
+.producto-4 a:hover {
+    transform: scale(1.025);
+}
+
+.producto-5 a:hover {
+    transform: scale(1.025);
+}
+
+.producto-6 a:hover {
+    transform: scale(1.025);
+}

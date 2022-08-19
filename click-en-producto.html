@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link del CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Link de Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- SEO  -->
+    <meta name="keywords" content="Talles, Color, Precio, Ropa, Naquit">
+    <meta name="description" content="Para agregar al carrito">
+
+    <title>Producto Seleccionado</title>
+
+</head>
+<body>
+    <header>
+
+        <div class="title-bar">
+
+            <!--Nombre no definido todavia-->
+
+            <h1 class="brand">Naquit</h1>
+
+        </div>
+
+        <div class="list">
+            <nav>
+              
+              <a class="menu-icon" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div></div>
+                <div></div>
+                <div></div> 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                <li><a class="dropdown-item"href="productos.html">Todos los productos</a></li>
+                <li><a class="dropdown-item" href="novedades.html">Novedades</a></li>
+                <li><a class="dropdown-item" href="sobre-nosotros.html">Sobre Nosotros</a></li>
+              </ul> 
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+
+        <div class="row">
+            <div class="column1">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imagenes/Ramen tee 1.webp" width="350px" height="450px" class="d-block w-100" alt="Ramen Tee 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/ramen tee 2.webp" width="350px" height="450px" class="d-block w-100" alt="Ramen Tee 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/ramen tee 3.webp" width="350px" height="450px" class="d-block w-100" alt="Ramen Tee 3">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="column2">
+                <div>
+                    <p class="nombre">
+                        Remera Ramen
+                    </p>
+          
+                    <p> Remera 100% de algodon </p>
+                    <p>  Oversized fit</p>
+                    <p>  No sabemos que dice en japones, usamos las letras mas copadas que encontramos en su abecedario</p>
+                    <p> mhmmmm que rico el ramen</p>
+        
+                    <h4>4,000$ </h4>
+                </div>
+                <form action="" method="" enctype="">
+                    <div>
+                        <label for="talles">Talles</label>
+                        <select name="" id="talles">
+                            <option value="">XS</option>
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+                        </select>
+                    </div>
+        
+                    <div>
+                        <label for="negro">Negro</label>
+                        <input id="negro" type="radio" name="color">
+        
+                        <label for="blanco">Blanco</label>
+                        <input id="blanco" type="radio" name="color">
+        
+                        <label for="gris">Gris</label>
+                        <input id="gris" type="radio" name="color">
+                    </div>
+        
+                    <div>
+                        <input type="submit" value="Añadir al carrito">
+                    </div>
+                </form>
+            </div>
+        </div> 
+    </main>
+
+
+
+    <footer>
+        <p class="disclaimer">Todos los productos de esta pagina tienen la finalidad de ser utilizados como objetos de prueba, ningun producto o diseño me pertenece.</p>
+        <div class="container-fluid">
+        
+            <div class="row p-5">
+              
+              <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h3 text-white mb-5 footer-1">Rodrigo Naquit</p>
+              </div>
+              
+              
+              <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 text-white footer-2">Redes Sociales</p>
+                <div class="mb-3">
+                  <a class="text-secondary text-decoration-none" href="https://www.instagram.com/?hl=es-la" target="_blank"> Instagram</a>
+                </div>
+                <div class="mb-3">
+                  <a class="text-secondary text-decoration-none" href="https://es-la.facebook.com/" target="_blank"> Facebook</a>
+                </div>
+                <div class="mb-3">
+                  <a class="text-secondary text-decoration-none" href="https://twitter.com/?lang=es" target="_blank"> Twitter</a>
+                </div>
+            </div>
+    </footer>
+
+     <!-- Bootstrap Script-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+</body>
+</html>
