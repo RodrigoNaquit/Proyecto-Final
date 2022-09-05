@@ -1,4 +1,36 @@
-@media (min-width: 700px) and (max-width: 1440px) {
+@media (min-width: 700px) and (max-width: 1439px) {
+    
+    .select {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        justify-content: space-evenly;
+    }
+
+    .carousel-item {
+        width: 450px;
+        height: 550px;
+        justify-content: center;
+        text-align: center;
+        
+    
+        justify-content: space-between;
+    }
+
+
+
+
+}
+
+@media (min-width: 1440px) {
+
+    .select {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
     .showcase {
         display: flex;
         flex-direction: row;
@@ -8,8 +40,8 @@
     
     .item-1 .item-2 .item-3 {
         img {
-            width: 500px;
-            height: 700px;
+            width: 400px;
+            height: 650px;
         }
     }
 
@@ -59,43 +91,31 @@
         padding: 45px;
         background-color: rgba(136, 136, 136, 0.585);
     }
-    
-    .producto-1 a:hover {
-        content: url(./imagenes/sweat\2.webp);
-        width: 375px;
-        height: 500px;
+
+    .producto-1 :hover {
+        transform: scale(1.025);
     }
     
-    .producto-2 a:hover {
-        content: url(./imagenes/shirt\2.webp);
-        width: 375px;
-        height: 500px;
+    .producto-2 :hover {
+        transform: scale(1.025);
     }
     
-    .producto-3 a:hover {
-        content: url(./imagenes/NASA\2.webp);
-        width: 375px;
-        height: 500px;
-    
+    .producto-3 :hover {
+        transform: scale(1.025);
     }
     
-    .producto-4 a:hover {
-        content: url(./imagenes/flores\2.webp);
-        width: 375px;
-        height: 500px;
+    .producto-4 :hover {
+        transform: scale(1.025);
     }
     
-    .producto-5 a:hover {
-        content: url(./imagenes/chino\3.jpg);
-        width: 375px;
-        height: 500px;
+    .producto-5 :hover {
+        transform: scale(1.025);
     }
     
-    .producto-6 a:hover {
-        content: url(./imagenes/momcards\tee\2.webp);
-        width: 375px;
-        height: 500px;
+    .producto-6 :hover {
+        transform: scale(1.025);
     }
+    
     
     .todo p {
         font-size: 20px;
@@ -103,39 +123,7 @@
         background-color: rgba(255, 255, 255, 0.113);
     }
 
-    .aside {
-        text-align: left;
-        font-weight: 300;
-    }
-
-    .row{
-        display: inline;
-        display: flex;
-        flex-direction: row;
-        width: 50%;
-    }
-    .carousel-item {
-        width: 350px;
-        height: 450px;
-    }
 
 
-    .column1 {
-        width: 50%;
-        height: 450px;
-        width: 350px;
-    }
-
-    .column2 {
-        width: 50%;
-
-    }
-
-
-    .product {
-        height: 450px;
-        width: 350px;
-        justify-content: center;
-    }
 
 }

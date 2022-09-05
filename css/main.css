@@ -100,19 +100,26 @@ footer {
   height: 100px;
   text-align: center; }
 
-.column1 {
-  width: 100%; }
+.select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
 
-.column2 {
-  width: 100%; }
-
-.product {
-  height: 450px;
-  width: 350px; }
+.carousel-inner {
+  justify-content: center;
+  text-align: center; }
 
 .nombre {
-  text-align: left;
-  font-weight: 600; }
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center; }
+
+.info {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px; }
 
 .todo {
   margin-top: 5%;
@@ -220,7 +227,8 @@ footer {
   color: aliceblue;
   background-image: url(../imagenes/popup.jpg);
   background-position: center;
-  height: 125px; }
+  height: 125px;
+  margin: 50px; }
 
 .novedad-2 {
   font-size: 50px;
@@ -228,28 +236,47 @@ footer {
   color: #f08807;
   background-image: url(../imagenes/catwalk.jfif);
   background-position: center;
-  height: 150px; }
+  height: 150px;
+  margin: 50px; }
 
 .novedad-3 {
   font-size: 50px;
   text-align: center;
   color: #e20bc2;
   background-color: black;
-  height: 125px; }
+  height: 125px;
+  margin: 50px; }
 
 .novedad-3:hover {
   background-color: white;
   color: orangered; }
 
-@media (min-width: 700px) and (max-width: 1440px) {
+@media (min-width: 700px) and (max-width: 1439px) {
+  .select {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: space-evenly; }
+  .carousel-item {
+    width: 450px;
+    height: 550px;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between; } }
+
+@media (min-width: 1440px) {
+  .select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
   .showcase {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center; }
   .item-1 .item-2 .item-3 img, .item-2 .item-2 .item-3 img, .item-3 .item-2 .item-3 img {
-    width: 500px;
-    height: 700px; }
+    width: 400px;
+    height: 650px; }
   .todo {
     margin-top: 5%;
     display: grid;
@@ -279,52 +306,19 @@ footer {
   .producto-6 {
     padding: 45px;
     background-color: rgba(136, 136, 136, 0.585); }
-  .producto-1 a:hover {
-    content: url(./imagenes/sweat\2.webp);
-    width: 375px;
-    height: 500px; }
-  .producto-2 a:hover {
-    content: url(./imagenes/shirt\2.webp);
-    width: 375px;
-    height: 500px; }
-  .producto-3 a:hover {
-    content: url(./imagenes/NASA\2.webp);
-    width: 375px;
-    height: 500px; }
-  .producto-4 a:hover {
-    content: url(./imagenes/flores\2.webp);
-    width: 375px;
-    height: 500px; }
-  .producto-5 a:hover {
-    content: url(./imagenes/chino\3.jpg);
-    width: 375px;
-    height: 500px; }
-  .producto-6 a:hover {
-    content: url(./imagenes/momcards\tee\2.webp);
-    width: 375px;
-    height: 500px; }
+  .producto-1 :hover {
+    transform: scale(1.025); }
+  .producto-2 :hover {
+    transform: scale(1.025); }
+  .producto-3 :hover {
+    transform: scale(1.025); }
+  .producto-4 :hover {
+    transform: scale(1.025); }
+  .producto-5 :hover {
+    transform: scale(1.025); }
+  .producto-6 :hover {
+    transform: scale(1.025); }
   .todo p {
     font-size: 20px;
     color: #000000;
-    background-color: rgba(255, 255, 255, 0.113); }
-  .aside {
-    text-align: left;
-    font-weight: 300; }
-  .row {
-    display: inline;
-    display: flex;
-    flex-direction: row;
-    width: 50%; }
-  .carousel-item {
-    width: 350px;
-    height: 450px; }
-  .column1 {
-    width: 50%;
-    height: 450px;
-    width: 350px; }
-  .column2 {
-    width: 50%; }
-  .product {
-    height: 450px;
-    width: 350px;
-    justify-content: center; } }
+    background-color: rgba(255, 255, 255, 0.113); } }

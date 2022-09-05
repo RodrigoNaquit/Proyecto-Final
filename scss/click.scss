@@ -1,18 +1,26 @@
 //Click//
-
-.column1 {
-    width: 100%;
+.select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
-.column2 {
-    width: 100%;
-}
 
-.product {
-    height: 450px;
-    width: 350px;
+.carousel-inner {
+    justify-content: center;
+    text-align: center;
 }
 
 .nombre {
-    text-align: left;
     font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.info {
+    font-size: 15px;
+    font-weight: 300;
+
+    text-align: center;
+    padding: $padding-2;
 }
